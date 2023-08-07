@@ -45,7 +45,11 @@ Use ping to send capatures post data back, use post url request to save data on 
 --> Bang the IISFairy
 
 
+# Attack scenarion or should i say usage scenario ;-)
 
-
+--> Set capture url to /owa/owa to save users login credentials in plaintext.
+--> Use it as a build in backdoor, it's way for flexible, less detecable then a webshell.
+    If uses right this backdoors the whole IIS server in compare to a webshell which is just a single file.
+    You can execute the cmd's basically by calling url, no matter if page exists or not, etc.
 
 
