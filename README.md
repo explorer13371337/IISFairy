@@ -51,7 +51,7 @@ Use ping to send capatures post data back, use post url request to save data on 
 
 --> Use it as a build in backdoor, it's way for flexible, less detecable then a webshell.
 
-    If uses right this backdoors the whole IIS server in compare to a webshell which is just a single file.
+    If used right this backdoors the whole IIS server in compare to a webshell which is just a single file.
 
     You can execute the cmd's basically by calling url, no matter if page exists or not, etc.
 
